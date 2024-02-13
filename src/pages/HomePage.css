@@ -1,0 +1,12 @@
+html {
+    background-color: white;
+}
+
+#project-list {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    row-gap: 5%;
+    margin: 10px;
+    background: white;
+}
