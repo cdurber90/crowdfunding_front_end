@@ -24,6 +24,7 @@ function NavBar() {
                              ) : (
                             <li><Link to="/login">LOGIN</Link></li>
                          )}
+                    <li><Link to="/signup">CREATE ACCOUNT</Link></li>
 
                 </ul>
    
