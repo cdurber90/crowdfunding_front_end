@@ -2,33 +2,39 @@ nav {
     display: block;
     background-color: navy;
     overflow: hidden;
-}
 
+    ul {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: navy;
 
-ul {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    background-color: navy;
+    }
 
-}
+    li {
+        display: block;
+        padding: 10px;
+    }
 
-li {
-    display: block;
-    padding: 10px;
-}
+    a {
+        font-family: sans-serif;
+        color: white;
+        text-decoration: none;
+    }
 
-a {
-    font-family: sans-serif;
-    color: white;
-    text-decoration: none;
-}
+    a:hover {
+        background-color: black;
+        color: white;
+    }
 
-.nav a:hover {
-    background-color: purple;
-    color: white;
-}
+    a.login {
+        float: right;
+    }
 
-.nav a.login {
-    float: right;
+    .pledge-info {
+        display: flex;
+        justify-content: center;
+        background-color: white;
+    }
+
 }

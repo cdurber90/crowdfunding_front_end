@@ -11,8 +11,15 @@
     object-fit: cover;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
 h3 {
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
     
 }
