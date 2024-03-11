@@ -54,12 +54,12 @@ function CreateProjectForm() {
     return (
         <form>
             <div>
-                <label htmlFor="title">Title:</label>
-                <input type="text" id="title" placeholder="Enter project title" onChange={handleChange} />
+                <label htmlFor="title">Healthcare Hero:</label>
+                <input type="text" id="title" placeholder="Enter person's name" onChange={handleChange} />
             </div>
             <div>
-                <label htmlFor="description">Description:</label>
-                <textarea id="description" placeholder="Describe your project" onChange={handleChange} />
+                <label htmlFor="description">About:</label>
+                <textarea id="description" placeholder="Describe your hero!" onChange={handleChange} />
             </div>
             <div>
                 <label htmlFor="goal">Fundraising Goal:</label>
@@ -67,7 +67,7 @@ function CreateProjectForm() {
             </div>
             <div>
                 <label htmlFor="image">Image URL:</label>
-                <input type="text" id="image" placeholder="Enter project image URL" onChange={handleChange} />
+                <input type="text" id="image" placeholder="Enter image URL" onChange={handleChange} />
             </div>
             <div>
                 <label htmlFor="is_open">Currently asking for donations? </label>
@@ -77,7 +77,7 @@ function CreateProjectForm() {
                 <label htmlFor="date_created">Date Created</label>
                 <input type="date" id="date_created" onChange={handleChange} />
             </div>
-            <button type="submit" onClick={handleSubmit}>Create Campaign</button>
+            <button type="submit" onClick={handleSubmit}>Submit</button>
         </form>
     );
 }
