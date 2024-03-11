@@ -17,6 +17,9 @@ function NavBar() {
                 <ul>
                     <li><Link to="/">HOME</Link></li>
                     <li><Link to="/contact">CONTACT</Link></li>
+                    <li><Link to="/nominate">NOMINATE A HERO</Link></li>
+                    <li><Link to="/signup">CREATE ACCOUNT</Link></li>
+                    <div>
                         {auth.token ? (
                             <li><Link to="/" onClick={handleLogout}>
                                 LOG OUT
@@ -24,7 +27,9 @@ function NavBar() {
                              ) : (
                             <li><Link to="/login">LOGIN</Link></li>
                          )}
-                    <li><Link to="/signup">CREATE ACCOUNT</Link></li>
+                    
+                    </div>
+                    
 
                 </ul>
    

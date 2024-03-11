@@ -6,6 +6,7 @@ import HomePage from './pages/HomePage';
 import ProjectPage from './pages/ProjectPage';
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage.jsx";
+import CreateProject from "./pages/CreateProjectPage.jsx";
 
 import NavBar from './components/NavBar';
   import { AuthProvider } from "./components/AuthProvider.jsx";
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
       { path: "/project/:id", element: <ProjectPage /> },
       { path: "/login", element: <LoginPage /> },
       { path: "/signup", element: <SignUpPage />},
-      // { path: "/contact", element: <ContactPage />}
+      { path: "/nominate", element: <CreateProject />},
+      { path: "/contact", element: <ContactPage />},
     ],
   },
 ]);

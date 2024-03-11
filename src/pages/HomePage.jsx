@@ -7,8 +7,8 @@ function HomePage() {
     const { projects } = useProjects();
 
     return (
+ 
         <div id="project-list">
-            <h1>Help a Healthcare Hero!</h1>
             {projects.map((projectData, key) => {
                 return <ProjectCard key={key} projectData={projectData} />;
             })}
